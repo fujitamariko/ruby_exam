@@ -83,6 +83,7 @@ end
       janken = Janken.new
       # 変数「next_game」に「true」を代入しましょう。
       # 「next_game」が「false」だと繰り返し処理を終了し、「true」だと繰り返し処理を継続します。
+      # falseの場合の挙動はすでに上のclass Jankenの一番下のif文で定義済だから必要ない
       next_game = true
       while next_game
         # 変数「next_game」にじゃんけんを実行して返ってきた値(戻り値)を代入します。
